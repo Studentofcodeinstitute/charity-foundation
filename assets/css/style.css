@@ -1,3 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    color: aqua;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+header {
+    height: 50px;
+    background-color: rgb(65, 65, 214);
+}
+
+#main-title {
+    font-family: Lato, sans-serif;
+    font-size: 180%;
+    float: left;
+    margin-left: 30px;
+}
+
+#option {
+    font-size: 120%;
+    letter-spacing: 2%;
+}
+
+/*
+#option,
+#main-title {
+    line-height: 76px;
+}
+*/
+#option li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#option a {
+    text-decoration: none;
+}
+
+#image {
+    float: left;
+    width: 50%;
+    background-color: rgb(218, 228, 228);
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+#content {
+    background-color: aqua;
+    float: right;
+    height: 100%;
+    width: 50%;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+#content>div {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 10%;
+    text-transform: uppercase;
+
+
+}
+
+#main-content {
+    height: 500px;
+    background-color: blue;
+
 }

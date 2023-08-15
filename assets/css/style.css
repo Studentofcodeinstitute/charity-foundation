@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
 
 * {
     margin: 0;
@@ -18,23 +18,33 @@ body {
 
 main {
     flex-grow: 1;
+
+
+
+}
+
+footer {
+    background: blue;
+    font-size: 30px;
+    padding: 35px;
+    text-align: center;
 }
 
 
 header {
     height: 50px;
-    background-color: rgb(65, 65, 214);
+    background-color: rgb(116, 116, 235);
 }
 
 #main-title {
-    font-family: Lato, sans-serif;
-    font-size: 180%;
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
     float: left;
     margin-left: 30px;
 }
 
 #option {
-    font-size: 120%;
+    font-size: 20px;
     letter-spacing: 2%;
 }
 
@@ -53,6 +63,15 @@ header {
 
 #option a {
     text-decoration: none;
+    color: azure;
+}
+
+#option a:hover {
+    border-bottom: 1px solid azure;
+}
+
+.active {
+    border-bottom: 1px solid azure;
 }
 
 #image {
@@ -74,7 +93,7 @@ img {
     float: right;
     height: 100%;
     width: 50%;
-    font-size: 200%;
+
     text-align: center;
 
 }
@@ -83,7 +102,8 @@ img {
     margin-top: 10%;
     width: 50%;
     margin-left: 10%;
-    text-transform: uppercase;
+    font-size: 30px;
+
 
 
 }
@@ -92,4 +112,55 @@ img {
     height: 500px;
     background-color: blue;
 
+}
+
+@media screen and (max-width: 600px) {
+    #content>div {
+        font-size: 25px;
+    }
+
+
+    #main-title {
+
+        font-size: 20px;
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+
+    #option li {
+        font-size: 15px;
+        margin-right: 15px;
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #content>div {
+        font-size: 20px;
+    }
+
+
+    #main-title {
+
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 5px;
+
+    }
+
+    #option li {
+        font-size: 10px;
+        margin-right: 10px;
+
+    }
+}
+
+header {
+    height: 40px;
+
+}
+
+footer {
+    font-size: 15px;
 }

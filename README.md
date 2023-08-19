@@ -2,7 +2,7 @@
 
 ## First page and viewport for different devices.
 
-### The main structure is based on inspirational espressiones. It is formed by three section; on the top there are three icon bar to navigate each section and scrolling bar to navigate.
+### The main structure is based on inspirational espressiones. It is small website, formed by four section; on the top there are three icons bar to navigate each section and scrolling bar to navigate.
 
 ![alt text](assets/images/screenshot_of_full_page.png)
 
@@ -12,9 +12,13 @@ First section contain;
 
 1. A picture to inspire for donation"
 
-2. A positive quotes.
+2. A positive quote.
 
-3. Navigation bar.
+3. Navigation bar. There are three navigation bar
+             
+             1. Home.
+             2. About us, on click it will represent the about us section.
+             3. Contact us, on click it will represent the form to contact.
 
 ![alt text](assets/images/page1.png)
 
@@ -26,14 +30,16 @@ Second section contain;
 
 ![alt text](assets/images/page_2.png)
 
-## Last section
+## Third section
 
 1. This is a contact page where all of three element required;
 
 
 ![alt text](assets/images/page_3.png)
 
-## Footer
+## Last section is footer
+
+There are four links to navigate and find us.
 
 ![alt text](assets/images/footer.png)
 

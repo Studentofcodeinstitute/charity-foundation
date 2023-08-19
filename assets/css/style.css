@@ -59,9 +59,6 @@ header {
     border-bottom: 1px solid azure;
 }
 
-.active {
-    border-bottom: 1px solid azure;
-}
 
 #image {
     float: left;
@@ -204,7 +201,7 @@ footer {
 
 #text ul {
     overflow: hidden;
-    margin-top: 5%;
+    margin-top: 2%;
 
 
 }

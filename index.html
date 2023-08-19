@@ -6,27 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>charity foundation</title>
+    <title>Home</title>
 </head>
 
 <body>
     <header>
-        <h2 id="main-title">Charity foundation</h2>
-        <nav>
-            <ul id="option">
-                <li>
-                    <a href="contactus.html">Let's contact</a>
-                </li>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="fixed">
+            <h2 id="main-title">Charity foundation</h2>
+            <div>
+                <a href="#home" class="active"></a>
+            </div>
+            <nav>
+                <ul id="option">
+
+                    <li>
+                        <a href="#contact">Contact us</a>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <div id="main-content">
             <div id="image"><img src="/assets/images/charity-image.webp" alt="background image for charity">
-                <img src="/assets/images/charity-image2.png" alt="Our foundation logo">
+
             </div>
             <div id="content">
                 <div>
@@ -35,10 +42,67 @@
                 </div>
             </div>
         </div>
+
+        <section class="aboutus" id="about">
+            <h3>About Us</h3>
+            <div id="text">
+                <h3>Our Charity Foundation work for:</h3>
+                <ul>
+
+                    <li>People are surviving in war situation.</li>
+                    <li>People are surviving in natural disaster.</li>
+                    <li>People are surviving with critical disease.</li>
+                    <li>People in need.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="whole-form" id="contact">
+            <form class="singup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <h2 class="changeP">Contact us for more information! <i class="fa-solid fa-address-book"></i></h2>
+                <label class="title-form" for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+
+                <label class="title-form" for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+
+                <label class="title-form" for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+
+                <input class="join-button" type="submit" value="Contact us">
+            </form>
+
+        </section>
+
     </main>
-    <footer>
-        charity foundation
+    <footer id="contact-footer">
+        <h3>Find us!</h3>
+        <ul class=" social-networks">
+
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href=https://twitter.com/i/flow/login?input_flow_data%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D
+                    target="_blank" rel="noopener" aria-label="visit our twitter page (open in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit our youtube page (open in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener"
+                    aria-label="visit our instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+
+
     </footer>
+    <script src="https://kit.fontawesome.com/cbda0b2220.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
